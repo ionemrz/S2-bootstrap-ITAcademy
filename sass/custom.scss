@@ -1,0 +1,25 @@
+$primary: #5265E1;
+$secondary: #FA5959;
+
+$nav-link-color: #6c757d;
+$nav-link-hover-color:              $secondary;
+
+
+$nav-tabs-border-color:             transparent transparent #6c757d;
+$nav-tabs-border-width:            0.2em;
+$nav-tabs-link-hover-border-color: transparent;
+
+$nav-tabs-link-active-border-color: transparent transparent $secondary;
+
+
+$accordion-button-active-bg:              white;
+
+$accordion-icon-color:                    $primary;
+$accordion-icon-active-color:             $secondary;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.nav-item {
+    border-bottom: 0.1em solid #6c757d;
+}
